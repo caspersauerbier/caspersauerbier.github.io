@@ -1,0 +1,76 @@
+.casper {
+background-image: url(http://dl.dropboxusercontent.com/s/egt11yvuko59509/Sauerbier%20background.jpeg);
+background-attachment: fixed;
+
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+overflow: hidden;
+text-align: right;
+font-family: Avenir Next; 
+font-size: 16px;}
+
+.samuel {
+	background-image: url(http://dl.dropboxusercontent.com/s/3pq4x4673mwyjoq/Portfolio%20and%20resume%20wallpaper.jpeg);
+background-attachment: fixed;
+
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+overflow: hidden;
+text-align: right;
+font-family: Avenir Next; 
+font-size: 16px;}
+
+.samuel h1 {
+	font-family: lavanderia;
+	
+	font-size: 64px;
+}
+
+ h1 {
+	font-size: 64px;
+	font-family: Lavanderia;
+	color: white;
+	text-align: center;
+}
+
+ h2 {
+	font-family: Avenir Next;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+ p {
+	font-family: Avenir Next;
+	font-size: 14px;
+	text-align: center;
+	color: #888888;
+}
+
+ h3 {
+	font-family: Avenir Next;
+	font-size: 24px;
+	text-align: center;
+	font-weight: 400;
+}
+
+ h4 {
+		font-family: Avenir Next;
+	font-size: 20px;
+	text-align: center;
+	color: #888888;
+	font-weight: 400;
+}
+
+.couvee {
+	background-image: url(http://dl.dropboxusercontent.com/s/8k3ri71vpavrv36/Couvee%20wallpaper.jpeg);
+background-attachment: fixed;
+
+-webkit-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+overflow: hidden;
+}
