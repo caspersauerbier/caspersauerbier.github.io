@@ -20,7 +20,7 @@ font-size: 16px;}
 @font-face
 {
 	font-family: Avenir Next;
-	src:url("Avenir Next Regular.ttf");
+	src:url("Avenir Next.ttf");
 }
 .samuel {
 	background-image: url(http://dl.dropboxusercontent.com/s/3pq4x4673mwyjoq/Portfolio%20and%20resume%20wallpaper.jpeg);
@@ -59,6 +59,7 @@ font-size: 16px;}
 	font-size: 14px;
 	text-align: center;
 	color: #888888;
+	font-variant: regular;
 }
 
  h3 {
