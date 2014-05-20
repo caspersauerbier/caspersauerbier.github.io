@@ -24,6 +24,21 @@ if (screen.width<800) {
   ga('create', 'UA-50467629-1', 'caspersauerbier.nl');
   ga('send', 'pageview');
 </script>
+<!-- Fade on scroll -->
+<script>
+(function () {
+  var img = document.getElementById('background'), opacity;
+  var min = 0.15;
+  
+  function setBackgroundOpacity () {
+    opacity = 1 - window.scrollY / (screen.height + 100);
+    img.style.opacity = opacity > min ? opacity : min;
+  }
+  
+  window.addEventListener('scroll', setBackgroundOpacity);
+})();
+</script>
+
 </head>
 
 <body bgcolor="#ededed" style="margin: 0px;">
