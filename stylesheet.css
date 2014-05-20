@@ -9,30 +9,7 @@ background-size: cover;
 overflow: hidden;
 text-align: right;
 font-family: Avenir Next; 
-font-size: 16px; }
-
-/* Fade on scroll test */
-.casper img {
-position: fixed;
-transform: translatez(0);
-}
-
-.svg {
-	position: absolute;
-	top: 50%;
-  left: 50%;
-  margin-left: -50px;
-  margin-top: -50px;
-  width: 100px;
-  height: 100px;
-}
-
-
-.path {
-  fill: white;
-  opacity: 0.7; }
-
-/* Fade on scroll test */
+font-size: 16px;}
 
 @font-face 
 {
@@ -89,7 +66,7 @@ font-size: 16px;}
 }
 
  h4 {
-		font-family: Avenir Next, Helvetica, Arial, sans-serif;
+		font-family: Avenir Next Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	text-align: center;
 	color: #888888;
