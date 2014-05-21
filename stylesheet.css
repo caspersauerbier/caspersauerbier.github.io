@@ -82,3 +82,16 @@ background-attachment: fixed;
 background-size: cover;
 overflow: hidden;
 }
+
+.404 {
+	background-image: url(http://dl.dropboxusercontent.com/s/5dwdv27a1wp50i1/404%20background.jpeg);
+	-webkit-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+overflow: hidden;
+}
+
+.404 h3 {
+	color: white;
+	
+}
