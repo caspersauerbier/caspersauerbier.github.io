@@ -84,4 +84,6 @@ background-size: cover;
 overflow: hidden;
 }
 
-
+.404 {
+	color: white;
+}
