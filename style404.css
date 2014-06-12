@@ -1,3 +1,6 @@
+::-moz-selection { background: #fff; color: #000000; text-shadow: none; }
+::selection { background: #fff; color: #000000; text-shadow: none; }
+
 html { 
   background: url(http://dl.dropboxusercontent.com/s/5dwdv27a1wp50i1/404%20background.jpeg) 
   no-repeat center center fixed; 

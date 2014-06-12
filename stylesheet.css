@@ -1,4 +1,4 @@
-::-moz-selection { background: #888888; color: #fff; text-shadow: none; }
+::-moz-selection { background: #fff; color: #000000; text-shadow: none; }
 ::selection { background: #fff; color: #000000; text-shadow: none; }
 
 .casper {
