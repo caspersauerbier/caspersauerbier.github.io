@@ -83,13 +83,3 @@ background-attachment: fixed;
 background-size: cover;
 overflow: hidden;
 }
-
-.page {
-		background-image: url(http://dl.dropboxusercontent.com/s/8k3ri71vpavrv36/Couvee%20wallpaper.jpeg);
-background-attachment: fixed;
-
--webkit-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-overflow: hidden;
-}
