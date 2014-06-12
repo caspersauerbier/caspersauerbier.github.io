@@ -1,5 +1,5 @@
 ::-moz-selection { background: #888888; color: #fff; text-shadow: none; }
-::selection { background: #888888; color: #fff; text-shadow: none; }
+::selection { background: #fff; color: #000000; text-shadow: none; }
 
 .casper {
 background-image: url(http://dl.dropboxusercontent.com/s/egt11yvuko59509/Sauerbier%20background.jpeg);
