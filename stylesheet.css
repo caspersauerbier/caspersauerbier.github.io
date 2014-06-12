@@ -73,6 +73,9 @@ font-size: 16px;}
 	font-weight: 400;
 }
 
+p.text::selection {
+	background: #888888;
+}
 
 .couvee {
 	background-image: url(http://dl.dropboxusercontent.com/s/8k3ri71vpavrv36/Couvee%20wallpaper.jpeg);
