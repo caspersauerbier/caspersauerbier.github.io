@@ -1,3 +1,7 @@
+.page {
+	cursor: url(/pointer.png), pointer;
+}
+
 ::-moz-selection { background: #fff; color: #000000; text-shadow: none; }
 ::selection { background: #fff; color: #000000; text-shadow: none; }
 
