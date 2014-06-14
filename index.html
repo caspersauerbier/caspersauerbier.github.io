@@ -26,24 +26,6 @@
 <meta name="msapplication-TileColor" content="#2d89ef">
 <meta name="msapplication-TileImage" content="/mstile-144x144.png">
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script>
-	$(function() {
-	  $('a[href*=#]:not([href=#])').click(function() {
-	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-
-	      var target = $(this.hash);
-	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-	      if (target.length) {
-	        $('html,body').animate({
-	          scrollTop: target.offset().top
-	        }, 1000);
-	        return false;
-	      }
-	    }
-	  });
-	});
-</script>
 
 <script type="text/Javascript">
 if (screen.width<800) {
@@ -74,9 +56,9 @@ if (screen.width<800) {
 	<br><br><br><br><br>
 	<h1>Sauerbier</h1>
     <center>
-	<a href="#DownArrow1"><img id="pic" src="http://dl.dropboxusercontent.com/s/pkofl7ubk08gvmi/Down%20arrow.png"></a>
+	<img id="pic" src="http://dl.dropboxusercontent.com/s/pkofl7ubk08gvmi/Down%20arrow.png">
 	</center>
-	 <br id="DownArrow1"><br><br><br><br><br><br><br><br><br>
+	 <br><br><br><br><br><br><br><br><br><br>
 </div>
 <br>
 <div class="text">
