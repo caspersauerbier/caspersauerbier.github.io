@@ -1,9 +1,18 @@
 .casper {
-	cursor: url(/default.png), default;
-	cursor: url(/auto.png), auto;
 	cursor: url(/pointer.png), pointer;
 }
 
+.text {
+	cursor: url(/default.png), default;
+}
+
+.couvee { 
+	cursor: url(/auto.png), auto;
+}
+
+.social {
+	cursor: url(/pointer.png), pointer;
+}
 
 ::-moz-selection { background: #fff; color: #000000; text-shadow: none; }
 ::selection { background: #fff; color: #000000; text-shadow: none; }
