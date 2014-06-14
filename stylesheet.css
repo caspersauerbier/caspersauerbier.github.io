@@ -1,5 +1,5 @@
 .custom {
-	cursor: url(cursor default.png), default;
+	cursor: url(/default.png), default;
 }
 
 ::-moz-selection { background: #fff; color: #000000; text-shadow: none; }
