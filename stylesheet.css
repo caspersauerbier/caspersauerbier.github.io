@@ -3,19 +3,19 @@
 }
 
 .text {
-	cursor: url(/default.png), default;
+	cursor: url(/cursor.png), auto;
 }
 
 .couvee { 
-	cursor: url(/auto.png), auto;
+	cursor: url(/cursor.png), auto;
 }
 
 .social {
-	cursor: url(/pointer.png), pointer;
+	cursor: url(/cursor.png), auto;
 }
 
 .samuel {
-	cursor: url(/pointer.png), pointer;
+	cursor: url(/cursor.png), auto;
 }
 
 ::-moz-selection { background: #fff; color: #000000; text-shadow: none; }
