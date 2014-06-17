@@ -1,5 +1,4 @@
 caspersauerbier.github.io
 =========================
 
-+ The website of Casper Sauerbier, my personal website.
-I'd love for you to check it out, read more at [caspersauerbier.nl](caspersauerbier.nl)
+The website of Casper Sauerbier, my personal website. Please check it out here: [caspersauerbier.nl](caspersauerbier.nl)
