@@ -109,6 +109,7 @@ overflow: hidden;
 
 .hover {
 
+margin-top: 0px;
      -webkit-transition: all 0.5s ease;
      -moz-transition: all 0.5s ease;
        -o-transition: all 0.5s ease;
@@ -120,6 +121,7 @@ overflow: hidden;
 }
  
 .hover:hover {
+	margin-top: -200px;
           opacity: 0.5;
           filter: alpha(opacity=50);
           
