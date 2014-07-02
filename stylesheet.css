@@ -110,13 +110,13 @@ overflow: hidden;
 .hover {
 
 margin-top: 0px;
-     -webkit-transition: all 0.5s ease;
+     );-webkit-transition: all 0.5s ease;
      -moz-transition: all 0.5s ease;
        -o-transition: all 0.5s ease;
       -ms-transition: all 0.5s ease;
           transition: all 0.5s ease;
           opacity: 1;
-          filter: alpha(opacity=100);
+          filter: alpha(opacity=100
          
 }
  
@@ -128,12 +128,23 @@ margin-top: 0px;
 
 }
 
-/*
-.twitter:hover {
+.h0ver {
 
-	background-color: #55ACEE; 
-	color: #55ACEE;
+-webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+          opacity: 1;
+          filter: alpha(opacity=100
+
 }
-*/
 
+
+.h0ver:hover {
+
+  opacity: 0.5;
+          filter: alpha(opacity=50);
+
+}
 
