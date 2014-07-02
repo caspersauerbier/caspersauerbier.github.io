@@ -121,7 +121,7 @@ margin-top: 0px;
 }
  
 .hover:hover {
-	margin-top: -200px;
+	margin-top: -20px;
           opacity: 0.5;
           filter: alpha(opacity=50);
           
