@@ -126,22 +126,5 @@ margin-top: 0px;
           filter: alpha(opacity=50);
 }
 
-.soon {
 
-	-webkit-transition: all 0.5s ease;
-     -moz-transition: all 0.5s ease;
-       -o-transition: all 0.5s ease;
-      -ms-transition: all 0.5s ease;
-          transition: all 0.5s ease;
-          opacity: 1;
-          filter: alpha(opacity=100
-
-}
-
-.soon:hover {
-
-	opacity: 0.5;
-          filter: alpha(opacity=50);
-          
-}
 
