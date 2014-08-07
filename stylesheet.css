@@ -68,6 +68,9 @@ img
 { border-style: solid;
 border-width: 0px; }
 
+.center 
+{ padding-left: 50px; }
+
 #hongkiat-form .txtinput 
 { font-family: "Avenir Next", Arial, sans-serif;
 border-style: solid;
