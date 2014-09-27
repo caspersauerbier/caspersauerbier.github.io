@@ -1,135 +1,230 @@
-.image 
-{ background-image: url(http://dl.dropboxusercontent.com/s/egt11yvuko59509/Sauerbier%20background.jpeg);
-background-attachment: fixed;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-overflow: hidden; 
-position: fixed; 
-top: 0;
-width: 100%;
-position: relative; }
+body {
+	min-width: 500px;
+}
 
-h1 
-{ font-size: 24px;
-color: #414141;
-font-family: Avenir Next, Helvetica, Arial, sans-serif;
-text-align: center;
-font-weight: 400; }
+h1 {
+	font-family: 'MyriadPro-Light', Avenir Next, Arial, sans-serif;
+	font-weight: 200;
+	text-align: center;
+	font-size: 24;
+	margin: 15px 30px; }
 
-h2 
-{ font-size: 20px;
-color: #414141;
-font-family: Avenir Next, Helvetica, Arial, sans-serif;
-font-weight: 400;
-width: 751px;
-width: 751px;
-padding-left: 35px;
-margin-right: -10px;
-margin-right: 0;
-margin: 0 auto; }
+p {
+	font-family: 'MyriadPro-Light', Avenir Next, Helvetica, Arial, sans-serif;
+	font-weight: 200;
+	text-align: center;
+	font-size: 16px;
+	word-spacing: 1px;
+	line-height: 23px;
+	width: 510px;
+	padding-left: 0px;
+	margin-right: -10px;
+	margin-right: 0;
+	margin: 0 auto; 
+	white-space: normal;}
+
+	.mobile h1 {
+		font-size: 50px;
+		font-weight: 400;
+	}
 	
-h3 
-{ font-size: 18px;
-color: #BFBFBF;
-font-family: Avenir Next, Helvetica, Arial, sans-serif;
-text-align: center;
-font-weight: 400; }	
+	.mobile .contact {
+		border: 1px solid #000000;
+		border-radius: 15px;
+		font-size: 50px;
+		font-family: 'MyriadPro-Light', Avenir Next, Helvetica, Arial, sans-serif;
+		padding: 20px 30px;
+		margin: 15px 30px;
+		letter-spacing: 1px; }
 
-h4 
-{font-size: 14px;
-color: #D8D8D8;
-font-family: Avenir Next, Helvetica, Arial, sans-serif;
-text-align: center;
-font-weight: 400; }
+		img.logo {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 767px;
+			height: 767px;
+		}
+.btn {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 20px 30px;
+	display: inline-block;
+	margin: 15px 30px;
+	letter-spacing: 1px;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	font-family:'MyriadPro-Light', Avenir Next, Helvetica, Arial, sans-serif;
+	font-weight: 200; 
+	-webkit-appearance: none;
+	-moz-appearance:none;}
 
-h5 
-{font-size: 98px;
-color: rgba(225,225,225,0.75);
-font-family: Avenir Next, Helvetica, Arial, sans-serif;
-text-align: center;
-font-weight: 500; }
+.btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s; }
 
-p 
-{ font-size: 14px;
-color: #9B9B9B;
-font-family: Avenir Next, Helvetica, Arial, sans-serif;
-font-weight: 400;
-word-spacing: 1px;
-line-height: 23px; 
-width: 751px;
-padding-left: 35px;
-margin-right: -10px;
-margin-right: 0;
-margin: 0 auto; }
+.btn-1 {
+	border: 1px solid #ff9500;
+	color: #ff9500;
+	background: #fff;
+	border-radius: 10px; }
 
-img 
-{ border-style: solid;
-border-width: 0px; }
+.btn-1a:hover,
+.btn-1a:active {
+	color: #fff;
+	background: #ff9500;
+	border-radius: 10px; }
 
-.center 
-{ padding-left: 50px; }
+::-moz-selection { background: #fff; color: #ff9500; text-shadow: none; }
+::selection { background: #fff; color: #ff9500; text-shadow: none; }
 
-#hongkiat-form .txtinput 
-{ font-family: "Avenir Next", Arial, sans-serif;
-border-style: solid;
-border-width: 1px;
-border-color: #9b9b9b;
-margin-bottom: 15px;
-font-size: 18px;
-padding: 11px 25px;
-padding-left: 10px;
-width: 100%; 
--webkit-appearance: none;
--moz-appearance:none;}
+.ip-header {
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	min-height: 460px;
+	width: 100%;
+	height: 100%;
+	background: #fff; }
 
-#hongkiat-form textarea 
-{ font-family: "Avenir Next", Helvetica, Arial, sans-serif;
-border-style: solid;
-border-width: 1px;
-border-color: #9b9b9b;
-font-size: 18px;
-padding: 11px 25px;
-padding-left: 10px;
-width: 100%;
-height: 180px;
-color: #414141;
-resize: none;
--webkit-appearance: none;
--moz-appearance:none; }
+.ip-header h1 {
+	margin: 0; }
 
-textarea, input 
-{outline: none;}
+.ip-logo,
+.ip-loader {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	opacity: 0;
+	cursor: default;
+	pointer-events: none; }
 
-#hongkiat-form #aligned 
-{ width: 785px;
-padding-right: 36px; }
+.ip-logo {
+	min-width: 500px;
+	top: 0;
+	height: 100%;
+	-webkit-transform: translate3d(0,25%,0);
+	transform: translate3d(0,25%,0); }
 
-#buttons 
-{ display: block; padding-top: 10px; 
-padding-right: 36px; }
+.ip-loader {
+	bottom: 20%; }
 
-#buttons #bt1 
-{ color: #515151;
-margin-right: -40px;
-height: 50px;
-width: 825px;
-padding: 0 1em;
-outline: 0;
-font-size: 18px;
-white-space: nowrap;
-word-wrap: normal;
-vertical-align: middle;
-cursor: pointer;
-background-color: #ffffff;
-border: 1px solid #414141; 
--webkit-appearance: none;
--moz-appearance:none;
- }
+.ip-header .ip-inner {
+	display: block;
+	margin: 0 auto; }
 
-.sub3 
-{ display: none; }
+.ip-header .ip-logo svg {
+	position: absolute;
+	min-height: 200px;
+	height: 25%; }
 
-::-moz-selection { background: #fff; color: #000000; text-shadow: none; }
-::selection { background: #fff; color: #000000; text-shadow: none; }
+.loaded .ip-header .ip-logo svg {
+	max-height: 300px; }
+
+.ip-header .ip-logo svg path {
+	fill: #000000; }
+
+.ip-header .ip-loader svg path {
+	fill: none;
+	stroke-width: 6; }
+
+.ip-header .ip-loader svg path.ip-loader-circlebg {
+	stroke: #f7f7f7; }
+
+.ip-header .ip-loader svg path.ip-loader-circle {
+	-webkit-transition: stroke-dashoffset 0.2s;
+	transition: stroke-dashoffset 0.2s;
+	stroke: #ff9500; }
+
+.loading .ip-logo,
+.loading .ip-loader {
+	opacity: 1; }
+
+.loading .ip-logo {
+	-webkit-animation: animInitialLogo 1s cubic-bezier(0.7,0,0.3,1) both;
+	animation: animInitialLogo 1s cubic-bezier(0.7,0,0.3,1) both; }
+
+@-webkit-keyframes animInitialLogo { 
+	from { opacity: 0; } }
+
+@keyframes animInitialLogo {
+	from { opacity: 0; } }
+
+.loading .ip-loader {
+	-webkit-animation: animInitialLoader 1s cubic-bezier(0.7,0,0.3,1) both;
+	animation: animInitialLoader 1s cubic-bezier(0.7,0,0.3,1) both; }
+
+@-webkit-keyframes animInitialLoader {
+	from { opacity: 0; -webkit-transform: scale3d(0.5,0.5,1); } }
+
+@keyframes animInitialLoader {
+	from { opacity: 0; -webkit-transform: scale3d(0.5,0.5,1); transform: scale3d(0.5,0.5,1); } }
+
+.loaded .ip-logo,
+.loaded .ip-loader {
+	opacity: 1; }
+
+.loaded .ip-logo {
+	-webkit-transform-origin: 50% 0;
+	transform-origin: 50% 0;
+	-webkit-animation: animLoadedLogo 1s cubic-bezier(0.7,0,0.3,1) forwards;
+	animation: animLoadedLogo 1s cubic-bezier(0.7,0,0.3,1) forwards; }
+
+@-webkit-keyframes animLoadedLogo {
+	to { -webkit-transform: translate3d(0,100%,0) translate3d(0,50px,0) scale3d(0.65,0.65,1); } }
+
+@keyframes animLoadedLogo {
+	to { -webkit-transform: translate3d(0,100%,0) translate3d(0,50px,0) scale3d(0.65,0.65,1); transform: translate3d(0,100%,0) translate3d(0,50px,0) scale3d(0.65,0.65,1); } }
+
+.loaded .ip-loader {
+	-webkit-animation: animLoadedLoader 0.5s cubic-bezier(0.7,0,0.3,1) forwards;
+	animation: animLoadedLoader 0.5s cubic-bezier(0.7,0,0.3,1) forwards; }
+
+@-webkit-keyframes animLoadedLoader {
+	to { opacity: 0; -webkit-transform: translate3d(0,-100%,0) scale3d(0.3,0.3,1); } }
+
+@keyframes animLoadedLoader {
+	to { opacity: 0; -webkit-transform: translate3d(0,-100%,0) scale3d(0.3,0.3,1); transform: translate3d(0,-100%,0) scale3d(0.3,0.3,1); } }
+
+.loaded .ip-header {
+	-webkit-animation: animLoadedHeader 1s cubic-bezier(0.7,0,0.3,1) forwards;
+	animation: animLoadedHeader 1s cubic-bezier(0.7,0,0.3,1) forwards; }
+
+@-webkit-keyframes animLoadedHeader {
+	to { -webkit-transform: translate3d(0,-100%,0); } }
+
+@keyframes animLoadedHeader {
+	to { -webkit-transform: translate3d(0,-100%,0); transform: translate3d(0,-100%,0); } }
+
+.layout-switch .ip-header {
+	position: absolute; }
+
+.no-js .ip-header {
+	position: relative;
+	min-height: 0px; }
+
+.no-js .ip-header .ip-logo {
+	margin-top: 20px;
+	height: 180px;
+	opacity: 1;
+	-webkit-transform: none;
+	transform: none; }
+
+@media only screen and (max-device-width: 500px;) {
+
+	.ip-main h2 {
+		font-size: 2.25em;
+		font-size: 10vw; }
+
+	.box {
+		width: 100%%; } }
