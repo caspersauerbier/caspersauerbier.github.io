@@ -25,6 +25,7 @@
 
 .boem  { 
   background-color: #fafafa;
+  text-align: center;
 }
 
 body{
@@ -38,6 +39,7 @@ a{
 	color:#000;
 	transition: 0.66s ease;
 	font-size: 1.2em;
+
 }
 	a:hover{
 		color:#c7c7cc;
@@ -59,6 +61,7 @@ p{
 .type-wrap{
 	margin:10px auto;
 	padding:20px;
+	text-align: center;
 }
 
 .links{
@@ -173,6 +176,7 @@ body
 h1 {
 	font-size: 23px;
 	font-weight: 400;
+	text-align: center;
 }
 
 h2 {
@@ -180,6 +184,7 @@ h2 {
 	font-size: 16px;
 	color: #9b9b9b;
 	margin: 10px;
+	text-align: center;
 }
 
 h3 {
@@ -194,19 +199,25 @@ h4 {
 	font-style: italic;
 	font-size: 20px;
 	color: #9b9b9b;
+	text-align: center;
 }
 
 h5 {
 	font-weight: 400;
 	font-size: 14px;
 	color: #5B7b9b;
+	text-align: center;
 }
 
 
-
+#centreer {
+	text-align: center;
+	margin: 0 auto;
+}
 
  #diagram { 
         width:733px;
+        margin: 0 auto;
       }
 
        #diaagram { 
@@ -271,6 +282,7 @@ h5 {
 
 .grey {
 	color: #9b9b9b;
+	text-align: center;
 }
 
 .greey {
@@ -287,6 +299,7 @@ h5 {
 
 .spaning {
 	font-size: 20px;
+
 }
 
 .spaaning {
